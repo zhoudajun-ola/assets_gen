@@ -41,7 +41,7 @@ void generateForBuilder(PubSpec pubspec, BuildStep buildStep) async {
 
 String _dartFormat(String content) {
   try {
-    var formatter = DartFormatter();
+    var formatter = DartFormatter(languageVersion: DartFormatter.latestLanguageVersion);
     return formatter.format(content);
   } catch (e) {
     return content;
