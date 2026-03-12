@@ -6,12 +6,12 @@
 targets:
   $default:
     builders:
-      assets_gen|assets_builder:
+      assets_gen_new|assets_builder:
         enabled: true
 
 builders:
   assets_builder:
-    import: "package:assets_gen/assets_gen.dart"
+    import: "package:assets_gen_new/assets_gen_new.dart"
     builder_factories: ["assetsBuilder"]
     build_extensions: {"$lib$": ["assets.dart"]}
     build_to: source

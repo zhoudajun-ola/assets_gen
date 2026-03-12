@@ -15,7 +15,7 @@ The `assets_gen` package helps you to generate a .dart file that contains all as
 
 ```yaml
 dev_dependencies:
-  assets_gen: any # Replace 'any' with version number.
+  assets_gen_new: any # Replace 'any' with version number.
   build_runner: any # Optional.
 ```
 

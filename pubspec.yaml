@@ -1,11 +1,11 @@
-name: assets_gen
+name: assets_gen_new
 description: >
-  The assets_gen package helps you to generate a .dart file that contains all assets according to `pubspec.yaml`.
-version: 1.5.0
-repository: https://github.com/chenenyu/assets_gen
+  The assets_gen_new package helps you to generate a .dart file that contains all assets according to `pubspec.yaml`.
+version: 1.5.3
+repository: https://github.com/zhoudajun-ola/assets_gen
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ^3.6.0
 
 dependencies:
   ansicolor: ">=2.0.0 <3.0.0"

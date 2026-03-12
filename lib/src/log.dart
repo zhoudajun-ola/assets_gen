@@ -3,7 +3,7 @@ import 'package:logging/logging.dart';
 
 final AnsiPen pen = AnsiPen();
 
-final Logger logger = Logger('assets_gen')
+final Logger logger = Logger('assets_gen_new')
   ..onRecord.listen((record) {
     String log = '[${record.level.name}] ${record.message}';
     if (record.level >= Level.SEVERE) {
